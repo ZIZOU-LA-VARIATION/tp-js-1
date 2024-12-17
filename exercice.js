@@ -28,7 +28,7 @@ function demanderOperation() {
 
 Cependant, il y a plusieurs raisons pour lesquelles nous utilisons des constantes. Nous utilison les constantes parce que  l'utilisation de constantes dans la fonction demanderNombres() nous permet de garantir l'immutabilité des valeurs, de rendre le code plus clair et d'éviter les erreurs. */
   
-  // Fonction principale
+  // Fonction principale s'est celle qui se chargera de faire le calcul avec les différentes valeurs de a et b et en fontion du calcul qui souhaite faire
   function calculer() {
     const operation = demanderOperation();
     const { a, b } = demanderNombres();
